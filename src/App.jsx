@@ -10,7 +10,10 @@ function App() {
   return (
     <>
        <NavItems/>
+       <div className='min-height: 100vh'>
+        
         <Outlet />
+       </div>
         <Footer/>
     </>
   )

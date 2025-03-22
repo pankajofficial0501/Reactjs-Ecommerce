@@ -7,6 +7,7 @@ import LocationMap from './LocationMap'
 import About from './About'
 import AppSection from './AppSection'
 import Sponsor from './Sponsor'
+import { Pagination } from 'react-bootstrap'
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
       <About/>
       <AppSection/>
       <Sponsor/>
+      
     </div>
   )
 }

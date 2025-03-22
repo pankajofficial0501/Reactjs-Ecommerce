@@ -7,6 +7,7 @@ const title=(
     <h2>Search your one From <span>Millions</span>of Product Here</h2>
 )
 const desc = "we have the largest collection of the product"
+// eslint-disable-next-line no-unused-vars
 const bannerList = [
     {
     iconName: "icofont-users-alt-4",

@@ -43,11 +43,11 @@ const NavItems = () => {
                         <div className='menu-area'>
                             <div className='menu'>
                                 <ul className={`lab-ul ${menuToggle ? "active" : ""}`}>
-                                    <li><Link to="/">Home</Link></li>
-                                    <li><Link to="/">Shop</Link></li>
-                                    <li><Link to="/">Blog</Link></li>
-                                    <li><Link to="/">About</Link></li>
-                                    <li><Link to="/">Contact</Link></li>
+                                    <li><Link to="/home">Home</Link></li>
+                                    <li><Link to="/shop">Shop</Link></li>
+                                    <li><Link to="/blog">Blog</Link></li>
+                                    <li><Link to="/about">About</Link></li>
+                                    <li><Link to="/contact">Contact</Link></li>
                                 </ul>
                                
 
